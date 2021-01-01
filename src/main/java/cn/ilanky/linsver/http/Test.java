@@ -19,7 +19,7 @@ public class Test extends ChannelOutboundHandlerAdapter {
     }
 
     @Override
-    public void exceptionCaught(ChannelHandlerContext var1, Throwable var2) throws Exception {
+    public void exceptionCaught(ChannelHandlerContext var1, Throwable var2){
         var2.printStackTrace();
     }
 }
